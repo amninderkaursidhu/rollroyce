@@ -4,63 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    tools:context=".Login"
     android:orientation="vertical"
     android:background="@drawable/backs"
-    android:padding="10dp"
-    tools:context=".Signup">
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/logo"
+        android:padding="10dp"
+        />
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:focusable="true"
 
-        android:focusableInTouchMode="true"
-        android:textColor="@color/colorAccent"
-        >
-
-        <EditText
-            android:id="@+id/istname"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="20"
-            android:hint="First Name"
-            android:inputType="text"
-            android:textSize="27sp" />
-    </android.support.design.widget.TextInputLayout>
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:textColor="@color/colorAccent"
         >
 
         <EditText
-            android:id="@+id/iindname"
+            android:id="@+id/ur"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="20"
-            android:hint="Last Name"
-            android:inputType="text"
-            android:textSize="27sp" />
-    </android.support.design.widget.TextInputLayout>
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
-        android:textColor="@color/colorAccent"
-        >
-
-        <EditText
-            android:id="@+id/usernm"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="20"
-            android:hint="UserName"
+            android:hint="User Name"
             android:inputType="text"
             android:textSize="27sp" />
     </android.support.design.widget.TextInputLayout>
@@ -73,32 +42,15 @@
         >
 
         <EditText
-            android:id="@+id/passwrd"
+            android:id="@+id/pr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:ems="20"
             android:hint="Password"
-            android:inputType="text"
+            android:inputType="textPassword"
             android:textSize="27sp" />
-    </android.support.design.widget.TextInputLayout>
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:focusableInTouchMode="true"
-        android:layout_marginTop="10dp"
-        android:textColor="@color/colorAccent"
-        >
 
-        <EditText
-            android:id="@+id/cnfrmpawrd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="20"
-
-            android:hint="Confirm Password"
-            android:inputType="text"
-            android:textSize="27sp" />
     </android.support.design.widget.TextInputLayout>
 
     <RadioGroup
@@ -130,6 +82,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="1dp"
+
             android:text="Employee"
             android:textColor="@color/colorAccent"
 
@@ -137,24 +90,25 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/adur"
+        android:id="@+id/lg"
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/button_rounded"
-        android:text="Add User"
+        android:text="Login"
         android:textColor="#ffffff"
 
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/bck"
+        android:id="@+id/sinp"
         android:layout_width="match_parent"
         android:layout_height="35dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/button_rounded"
-        android:text="Back"
+        android:text="Signup"
         android:textColor="#ffffff"
 
         android:textSize="25sp" />
+
 </LinearLayout>
