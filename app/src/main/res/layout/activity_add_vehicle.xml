@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddVehicle"
+    android:orientation="vertical"
+    android:background="@drawable/backs"
+    android:padding="5dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusable="true"
+
+        android:focusableInTouchMode="true"
+        android:textColor="@color/colorAccent"
+        >
+
+        <EditText
+            android:id="@+id/vtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="Vehicle Type"
+            android:inputType="text"
+            android:textSize="18sp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="@color/colorAccent"
+        >
+
+        <EditText
+            android:id="@+id/vbrandname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="Vehicle Brand Name"
+            android:inputType="text"
+            android:textSize="18sp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="@color/colorAccent"
+        >
+
+        <EditText
+            android:id="@+id/vmodel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="Vehicle Model "
+            android:inputType="text"
+            android:textSize="18sp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="@color/colorAccent"
+        >
+
+        <EditText
+            android:id="@+id/vyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="20"
+            android:hint="Year"
+            android:inputType="text"
+            android:textSize="18sp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        >
+
+        <EditText
+            android:id="@+id/vcolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+
+            android:hint="Color"
+            android:inputType="text"
+            android:textSize="18sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        >
+
+        <EditText
+            android:id="@+id/licenseplate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+
+            android:hint="license plate"
+            android:inputType="text"
+            android:textSize="18sp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Image:- "
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:entries="@array/image_arrays"
+            android:prompt="@string/image_prompt" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/advch"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_rounded"
+        android:text="Add Vehicle"
+        android:textColor="#ffffff"
+
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bck"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_rounded"
+        android:text="Back"
+        android:textColor="#ffffff"
+
+        android:textSize="18sp" />
+</LinearLayout>
