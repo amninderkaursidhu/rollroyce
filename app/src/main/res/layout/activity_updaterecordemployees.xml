@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/backs"
+    android:padding="10dp"
+    tools:context=".Signup">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:focusable="true"
+
+        android:focusableInTouchMode="true"
+        android:textColor="@color/colorAccent"
+        >
+
+        <EditText
+            android:id="@+id/istname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="First Name"
+            android:inputType="text"
+            android:textSize="18sp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="@color/colorAccent"
+        >
+
+        <EditText
+            android:id="@+id/iindname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="Last Name"
+            android:inputType="text"
+            android:textSize="18sp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="@color/colorAccent"
+        >
+
+        <EditText
+            android:id="@+id/usernm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="UserName"
+            android:inputType="text"
+            android:textSize="18sp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="@color/colorAccent"
+        >
+
+        <EditText
+            android:id="@+id/passwrd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="20"
+            android:hint="Password"
+            android:inputType="text"
+            android:textSize="18sp" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+    <Button
+        android:id="@+id/adur"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_rounded"
+        android:text=" Update User"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+  />
+
+    <Button
+        android:id="@+id/bck"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_rounded"
+        android:text="Back"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+         />
+</LinearLayout>
