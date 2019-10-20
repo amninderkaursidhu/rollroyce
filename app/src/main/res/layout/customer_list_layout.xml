@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+       <RelativeLayout
+           android:id="@+id/relt"
+           android:layout_margin="12dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="16dp"
+           >
+          <ImageView
+              android:id="@+id/imageview"
+              android:layout_width="120dp"
+              android:layout_height="90dp"
+              android:background="@drawable/customer"
+              android:padding="4dp"/>
+           <TextView
+               android:textColor="@color/colorAccent"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="5dp"
+               android:layout_toRightOf="@id/imageview"
+               android:text="Name :-"
+               android:textStyle="bold"
+
+               android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+               />
+           <TextView
+               android:id="@+id/textviewfirstname"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="75dp"
+               android:layout_toRightOf="@id/imageview"
+               android:text="First name"
+               android:textColor="#000000"
+               android:textStyle="bold"
+               android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+               />
+           <TextView
+               android:id="@+id/textviewlastname"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="145dp"
+               android:layout_toRightOf="@id/imageview"
+               android:text="Last name"
+               android:textStyle="bold"
+               android:textColor="#000000"
+               android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+               />
+           <TextView
+               android:textColor="@color/colorAccent"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toRightOf="@id/imageview"
+               android:layout_marginTop="20dp"
+               android:layout_marginLeft="5dp"
+               android:text="Username :-"
+               android:textStyle="bold"
+               android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+
+               />
+           <TextView
+               android:id="@+id/textviewusername"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toRightOf="@id/imageview"
+               android:layout_marginTop="20dp"
+               android:layout_marginLeft="100dp"
+               android:text="Username"
+               android:textStyle="bold"
+               android:textAppearance="@style/TextAppearance.AppCompat"
+
+               />
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toRightOf="@id/imageview"
+               android:layout_marginTop="40dp"
+               android:layout_marginLeft="5dp"
+
+               android:textColor="@color/colorAccent"
+               android:textStyle="bold"
+               android:text="Password :- "
+               android:textAppearance="@style/TextAppearance.AppCompat"
+
+               />
+           <TextView
+               android:id="@+id/textviewpassword"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toRightOf="@id/imageview"
+               android:layout_marginTop="40dp"
+               android:layout_marginLeft="100dp"
+               android:background="@color/colorAccent"
+               android:textColor="#FFFF"
+               android:textStyle="bold"
+               android:text="Password"
+               android:textAppearance="@style/TextAppearance.AppCompat"
+
+               />
+
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toRightOf="@id/imageview"
+               android:layout_marginTop="70dp"
+               android:layout_marginLeft="5dp"
+
+               android:textColor="@color/colorAccent"
+               android:textStyle="bold"
+               android:textSize="20dp"
+               android:text="Role :-"
+               android:textAppearance="@style/TextAppearance.AppCompat"
+
+               />
+           <TextView
+               android:id="@+id/textviewrole"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toRightOf="@id/imageview"
+               android:layout_marginTop="70dp"
+               android:layout_marginLeft="95dp"
+
+               android:textColor="@color/colorAccent"
+               android:textStyle="bold"
+               android:textSize="20dp"
+               android:text="Role Customer"
+               android:textAppearance="@style/TextAppearance.AppCompat"
+
+               />
+       </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
