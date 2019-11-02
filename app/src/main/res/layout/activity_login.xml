@@ -31,7 +31,7 @@
             android:ems="20"
             android:hint="User Name"
             android:inputType="text"
-            android:textSize="27sp" />
+            android:textSize="18sp" />
     </android.support.design.widget.TextInputLayout>
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
@@ -49,7 +49,7 @@
             android:ems="20"
             android:hint="Password"
             android:inputType="textPassword"
-            android:textSize="27sp" />
+            android:textSize="18sp" />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -98,7 +98,7 @@
         android:text="Login"
         android:textColor="#ffffff"
 
-        android:textSize="25sp" />
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/sinp"
@@ -109,6 +109,6 @@
         android:text="Signup"
         android:textColor="#ffffff"
 
-        android:textSize="25sp" />
+        android:textSize="18sp" />
 
 </LinearLayout>

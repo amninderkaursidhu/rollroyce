@@ -1,5 +1,23 @@
 <resources>
     <string name="app_name">Car_Rental</string>
+    <string name="title_activity_updateemployeelist">updateemployeelist</string>
 
+    <string name="image_prompt">Choose a country</string>
 
+    <string-array name="image_arrays">
+
+        <item>bmw</item>
+        <item>maruti</item>
+        <item>hyundai</item>
+        <item>audi</item>
+        <item>mercedes</item>
+        <item>tata</item>
+        <item>ferrari</item>
+        <item>jeep</item>
+        <item>lamborghini</item>
+        <item>toyota</item>
+        <item>nissan</item>
+        <item>prevost</item>
+
+    </string-array>
 </resources>

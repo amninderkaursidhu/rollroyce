@@ -12,7 +12,7 @@
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:focusable="true"
 
         android:focusableInTouchMode="true"
@@ -26,11 +26,11 @@
             android:ems="20"
             android:hint="First Name"
             android:inputType="text"
-            android:textSize="27sp" />
+            android:textSize="18sp" />
     </android.support.design.widget.TextInputLayout>
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:layout_marginTop="10dp"
         android:focusable="true"
         android:focusableInTouchMode="true"
@@ -44,11 +44,11 @@
             android:ems="20"
             android:hint="Last Name"
             android:inputType="text"
-            android:textSize="27sp" />
+            android:textSize="18sp" />
     </android.support.design.widget.TextInputLayout>
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:layout_marginTop="10dp"
         android:focusable="true"
         android:focusableInTouchMode="true"
@@ -62,11 +62,11 @@
             android:ems="20"
             android:hint="UserName"
             android:inputType="text"
-            android:textSize="27sp" />
+            android:textSize="18sp" />
     </android.support.design.widget.TextInputLayout>
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:textColor="@color/colorAccent"
@@ -80,11 +80,11 @@
             android:ems="20"
             android:hint="Password"
             android:inputType="text"
-            android:textSize="27sp" />
+            android:textSize="18sp" />
     </android.support.design.widget.TextInputLayout>
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:focusableInTouchMode="true"
         android:layout_marginTop="10dp"
         android:textColor="@color/colorAccent"
@@ -98,13 +98,13 @@
 
             android:hint="Confirm Password"
             android:inputType="text"
-            android:textSize="27sp" />
+            android:textSize="18sp" />
     </android.support.design.widget.TextInputLayout>
 
     <RadioGroup
         android:id="@+id/rg"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginTop="12dp"
         android:orientation="horizontal">
 
@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:text="Role :- "
             android:textColor="@color/colorAccent"
-            android:textSize="27sp" />
+            android:textSize="18sp" />
 
         <RadioButton
             android:id="@+id/cust"
@@ -140,12 +140,12 @@
         android:id="@+id/adur"
         android:layout_width="match_parent"
         android:layout_height="35dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="18dp"
         android:background="@drawable/button_rounded"
         android:text="Add User"
         android:textColor="#ffffff"
 
-        android:textSize="25sp" />
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/bck"
@@ -156,5 +156,5 @@
         android:text="Back"
         android:textColor="#ffffff"
 
-        android:textSize="25sp" />
+        android:textSize="18sp" />
 </LinearLayout>

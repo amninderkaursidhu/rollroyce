@@ -3,7 +3,203 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Welcome_Employee">
+    android:layout_height="wrap_content"
+    tools:context=".Welcome_Employee"
+    android:orientation="horizontal"
+    android:background="@drawable/welcomeemp"
+
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:text="Employee Dashboard"
+            android:textColor="#ffff"
+
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="120dp">
+
+
+            <Button
+                android:id="@+id/listemp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_rounded"
+
+                android:textStyle="bold"
+                android:text="List of Customer" />
+
+            <Button
+                android:textColor="#ffffff"
+                android:background="@drawable/button_rounded"
+
+                android:textStyle="bold"
+                android:id="@+id/b3"
+                android:textSize="15sp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="5dp"
+
+                android:text="Edit Customer" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:text="Add Customer and Employee"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_rounded"
+                    android:id="@+id/custadd"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/delemp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_rounded"
+
+                android:textStyle="bold"
+                android:text="Delete Customer" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+
+            <Button
+                android:textSize="15sp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:text="Reservation List"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_rounded"
+
+                android:textStyle="bold"
+
+                />
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Add Vehicles Now"
+                android:id="@+id/vadds"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_rounded"
+
+                android:textStyle="bold"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+
+            <Button
+                android:textSize="15sp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:text="Cancel Reservation"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_rounded"
+                 android:id="@+id/cnclerervtn"
+                android:textStyle="bold"
+
+                />
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="5dp"
+                android:text="Manage Vechles"
+                android:textSize="15sp"
+
+                android:textColor="#ffffff"
+                android:background="@drawable/button_rounded"
+
+                android:textStyle="bold"
+                android:id="@+id/lstv"
+
+                />
+                    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+
+            <Button
+                android:textSize="15sp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="5dp"
+                android:text="Logout"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_rounded"
+                   android:id="@+id/logs"
+
+                android:textStyle="bold"
+
+                />
+
+
+    </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/logo"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+
+
 
 </LinearLayout>

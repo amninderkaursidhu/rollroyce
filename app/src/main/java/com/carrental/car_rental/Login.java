@@ -75,6 +75,7 @@ public class Login extends AppCompatActivity {
                        if(urr!=0 && pssw!=0)
                        {
                            Intent intent = new Intent(Login.this, Welcome_Customer.class);
+                           intent.putExtra("um",username);
                            startActivity(intent);
                        }
                        else
@@ -102,7 +103,7 @@ public class Login extends AppCompatActivity {
                     }
                     if(urr!=0 && pssw!=0)
                     {
-                        Intent intent = new Intent(Login.this,Welcome_Employee.class);
+                        Intent intent = new Intent(Login.this,Welcome_Employee.class).putExtra("username",urr);
                         startActivity(intent);
                     }
                     else

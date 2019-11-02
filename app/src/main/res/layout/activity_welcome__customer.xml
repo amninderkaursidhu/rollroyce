@@ -4,10 +4,164 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Welcome_Customer">
+    tools:context=".Welcome_Customer"
+    android:background="@drawable/welcomeemp"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:text="Customer Dashboard"
+            android:textColor="#ffff"
+
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:text="Welcome"
+            android:textColor="#ffff"
+            android:id="@+id/welcome"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="80dp">
 
 
+            <Button
+                android:background="@drawable/button_rounded"
+                android:id="@+id/listveh"
+                android:layout_width="130dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
 
+                android:textColor="#ffffff"
+                android:text="List of Vehcile" />
+
+            <Button
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_rounded"
+                android:id="@+id/b34"
+
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="5dp"
+
+                android:text="Manage Reservation" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+
+            <Button
+                android:id="@+id/cancelreservation"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_rounded"
+                android:text="Manage Rental  Booking"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:textColor="#ffffff"
+                android:background="@drawable/button_rounded"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/logout"
+                android:text="Logout"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+
+            <Button
+                android:textColor="#ffffff"
+                android:background="@drawable/button_rounded"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/retunvehicle"
+                android:text="Return Vehicle"
+
+                />
+            <Button
+                android:textColor="#ffffff"
+                android:background="@drawable/button_rounded"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/trans"
+                android:text="View My Transaction"
+
+                />
+
+        </LinearLayout>
+        <Button
+            android:background="@drawable/button_rounded"
+            android:id="@+id/listvehss"
+            android:layout_width="170dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="5dp"
+
+            android:textColor="#ffffff"
+            android:text="List of Vehcile available between 2 Dates" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/logo"
+            android:padding="5dp"
+            />
+
+    </LinearLayout>
 
 
 
